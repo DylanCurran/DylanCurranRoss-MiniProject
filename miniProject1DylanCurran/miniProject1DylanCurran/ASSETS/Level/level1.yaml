@@ -1,0 +1,61 @@
+background:   
+file: .ASSETS/IMAGES/space.jpg  
+player: 
+  position: {x: 500, y: 300} 
+invader:
+   - type: invaders
+     position: {x: 50, y: 200}
+   - type: invaders
+     position: {x: 200, y: 200}
+   - type: invaders
+     position: {x: 350, y: 200}
+   - type: invaders
+     position: {x: 500, y: 200}
+   - type: invaders
+     position: {x: 650, y: 200}
+   - type: invaders
+     position: {x: 800, y: 200}
+   - type: invaders
+     position: {x: 50, y: 400}
+   - type: invaders
+     position: {x: 200, y: 400}
+   - type: invaders
+     position: {x: 350, y: 400}
+   - type: invaders
+     position: {x: 500, y: 400}
+   - type: invaders
+     position: {x: 650, y: 400}
+   - type: invaders
+     position: {x: 800, y: 400}
+block:
+   - type: blocks
+     position: {x: 50, y: 100}
+   - type: blocks
+     position: {x: 200, y: 100}
+   - type: blocks
+     position: {x: 350, y: 100}
+   - type: blocks
+     position: {x: 500, y: 100}
+   - type: blocks
+     position: {x: 650, y: 100}
+   - type: blocks
+     position: {x: 800, y: 100}
+   - type: blocks
+     position: {x: 50, y: 300}
+   - type: blocks
+     position: {x: 200, y: 300}
+   - type: blocks
+     position: {x: 350, y: 300}
+   - type: blocks
+     position: {x: 500, y: 300}
+   - type: blocks
+     position: {x: 650, y: 300}
+   - type: blocks
+     position: {x: 800, y: 300}
+ball:
+   - type: balls
+     position: {x: 100, y: 600}
+   - type: balls
+     position: {x: 120, y: 600}
+   - type: balls
+     position: {x: 140, y: 600}
