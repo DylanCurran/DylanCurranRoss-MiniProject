@@ -24,49 +24,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Game.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\blocks.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\player.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\levelLoader.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Ross%27 MiniProject\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\invader.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Ross%27 MiniProject\Ross%27 MiniProject\Ross%27 MiniProject\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\ball.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Game.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\blocks.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\player.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\levelLoader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Ross%27 MiniProject\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\invader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\Ross%27 MiniProject\Ross%27 MiniProject\Ross%27 MiniProject\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\ball.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="..\..\..\..\..\pictures\SFML-LOGO.png">
       <Filter>Resource Files\ASSETS\IMAGES</Filter>
     </Image>
@@ -80,5 +37,48 @@
     <None Include="..\..\..\..\Ross%27 MiniProject\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\ASSETS\Level\level1.yaml">
       <Filter>Resource Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="blocks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="invader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="levelLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="blocks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="invader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="levelLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,0 +1,11 @@
+﻿  player.cpp
+  main.cpp
+  levelLoader.cpp
+  invader.cpp
+  Game.cpp
+c:\users\c00217112\desktop\dylancurranross-miniproject\miniproject1dylancurran\miniproject1dylancurran\game.cpp(17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  blocks.cpp
+c:\users\c00217112\desktop\dylancurranross-miniproject\miniproject1dylancurran\miniproject1dylancurran\blocks.cpp(20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  ball.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'sfml-graphics-d.lib'

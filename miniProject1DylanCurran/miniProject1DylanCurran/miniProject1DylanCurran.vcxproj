@@ -19,23 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\Ross%27 MiniProject\Ross%27 MiniProject\Ross%27 MiniProject\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\ball.cpp" />
-    <ClCompile Include="..\..\..\..\Ross%27 MiniProject\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\invader.cpp" />
-    <ClCompile Include="..\..\..\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\blocks.cpp" />
-    <ClCompile Include="..\..\..\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\levelLoader.cpp" />
-    <ClCompile Include="..\..\..\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\player.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\Ross%27 MiniProject\Ross%27 MiniProject\Ross%27 MiniProject\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\ball.h" />
-    <ClInclude Include="..\..\..\..\Ross%27 MiniProject\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\invader.h" />
-    <ClInclude Include="..\..\..\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\blocks.h" />
-    <ClInclude Include="..\..\..\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\levelLoader.h" />
-    <ClInclude Include="..\..\..\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\player.h" />
-    <ClInclude Include="Game.h" />
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="..\..\..\..\..\pictures\SFML-LOGO.png" />
   </ItemGroup>
   <ItemGroup>
@@ -43,6 +26,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\Ross%27 MiniProject\Ross%27 MiniProject\miniProject1DylanCurran\miniProject1DylanCurran\ASSETS\Level\level1.yaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ball.cpp" />
+    <ClCompile Include="blocks.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="invader.cpp" />
+    <ClCompile Include="levelLoader.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="player.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ball.h" />
+    <ClInclude Include="blocks.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="invader.h" />
+    <ClInclude Include="levelLoader.h" />
+    <ClInclude Include="player.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -112,6 +112,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SFML_SDK)\include</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
